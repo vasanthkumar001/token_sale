@@ -7,8 +7,8 @@ contract DappToken {
     //Set the total number of tokens
     //read the total number of tokens
     uint256 public totalSupply;
-   function dappToken() public {
-        totalSupply += 1000000;
+    constructor() public {
+        totalSupply = 1000000;
         // balancesOf[msg.sender] += 1000000;
     }
 }   
