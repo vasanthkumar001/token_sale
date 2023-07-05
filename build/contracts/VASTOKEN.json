@@ -1,5 +1,5 @@
 {
-  "contractName": "DappToken",
+  "contractName": "VASTOKEN",
   "abi": [
     {
       "inputs": [],
@@ -12,8 +12,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -23,9 +22,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.2+commit.661d1103\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"dappToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DappToken.sol\":\"DappToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DappToken.sol\":{\"keccak256\":\"0x26e56a48e6cce3db9869ca0a7bd7e9609780e7f5b70b36f5397f8115d49e4a0a\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://2ccc784525c385c7f4a940799dc0d0dba26a89facdef7af0e36a0cf73ada3eed\",\"dweb:/ipfs/QmRjsmDw66ubMSvtKemZNoV9HBedETzc5xg4mpo4oyk4X2\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060c78061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780635eb186f8146051575b600080fd5b603d6059565b60405160489190606e565b60405180910390f35b6057605f565b005b60005481565b565b6068816087565b82525050565b6000602082019050608160008301846061565b92915050565b600081905091905056fea26469706673582212200057a3ffbba18737d6184af4cb15ecc3e490936ceab813ba636b8ecad45a113464736f6c63430008020033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780635eb186f8146051575b600080fd5b603d6059565b60405160489190606e565b60405180910390f35b6057605f565b005b60005481565b565b6068816087565b82525050565b6000602082019050608160008301846061565b92915050565b600081905091905056fea26469706673582212200057a3ffbba18737d6184af4cb15ecc3e490936ceab813ba636b8ecad45a113464736f6c63430008020033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.2+commit.661d1103\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"dappToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DappToken.sol\":\"VASTOKEN\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DappToken.sol\":{\"keccak256\":\"0x3f2c2e64de7c93e0284663e868fb367ba23f3d2796ed38f103e414272f3c85e6\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://34922dbb2db741171a9bd1e4205c3744f694785b8d8b3ffb2b44631bfdb2b687\",\"dweb:/ipfs/QmXwtNP8nR8n4KRoQjC8LMwJmD2jHNCEsMg2fhSQUefc8H\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060c78061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780635eb186f8146051575b600080fd5b603d6059565b60405160489190606e565b60405180910390f35b6057605f565b005b60005481565b565b6068816087565b82525050565b6000602082019050608160008301846061565b92915050565b600081905091905056fea2646970667358221220042383426409d84760e3bae7b736beadc99328a498a0279f2951ea6ddc4b130664736f6c63430008020033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806318160ddd1460375780635eb186f8146051575b600080fd5b603d6059565b60405160489190606e565b60405180910390f35b6057605f565b005b60005481565b565b6068816087565b82525050565b6000602082019050608160008301846061565b92915050565b600081905091905056fea2646970667358221220042383426409d84760e3bae7b736beadc99328a498a0279f2951ea6ddc4b130664736f6c63430008020033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -256,14 +255,14 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "135:259:0:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "135:259:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;253:26;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;284:108;;;:::i;:::-;;253:26;;;;:::o;284:108::-;:::o;7:118:1:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:77::-;;425:5;414:16;;404:32;;;:::o",
-  "source": "// SPDX-License-Identifier: SEE LICENSE IN LICENSE\npragma solidity ^0.8.2;\n\n// import \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\ncontract DappToken {\n    //Constructor\n    //Set the total number of tokens\n    //read the total number of tokens\n    uint256 public totalSupply;\n   function dappToken() public {\n        // totalSupply =0;\n        // balancesOf[msg.sender] += 1000000;\n    }\n}   \n    ",
+  "sourceMap": "135:258:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "135:258:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;252:26;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;283:108;;;:::i;:::-;;252:26;;;;:::o;283:108::-;:::o;7:118:1:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:77::-;;425:5;414:16;;404:32;;;:::o",
+  "source": "// SPDX-License-Identifier: SEE LICENSE IN LICENSE\npragma solidity ^0.8.2;\n\n// import \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\ncontract VASTOKEN {\n    //Constructor\n    //Set the total number of tokens\n    //read the total number of tokens\n    uint256 public totalSupply;\n   function dappToken() public {\n        // totalSupply =0;\n        // balancesOf[msg.sender] += 1000000;\n    }\n}   \n    ",
   "sourcePath": "/home/user/Desktop/truffle/token_sale/contracts/DappToken.sol",
   "ast": {
     "absolutePath": "project:/contracts/DappToken.sol",
     "exportedSymbols": {
-      "DappToken": [
+      "VASTOKEN": [
         8
       ]
     },
@@ -292,8 +291,8 @@
         "linearizedBaseContracts": [
           8
         ],
-        "name": "DappToken",
-        "nameLocation": "144:9:0",
+        "name": "VASTOKEN",
+        "nameLocation": "144:8:0",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -302,10 +301,10 @@
             "id": 3,
             "mutability": "mutable",
             "name": "totalSupply",
-            "nameLocation": "268:11:0",
+            "nameLocation": "267:11:0",
             "nodeType": "VariableDeclaration",
             "scope": 8,
-            "src": "253:26:0",
+            "src": "252:26:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -316,7 +315,7 @@
               "id": 2,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "253:7:0",
+              "src": "252:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -328,7 +327,7 @@
             "body": {
               "id": 6,
               "nodeType": "Block",
-              "src": "312:80:0",
+              "src": "311:80:0",
               "statements": []
             },
             "functionSelector": "5eb186f8",
@@ -337,99 +336,40 @@
             "kind": "function",
             "modifiers": [],
             "name": "dappToken",
-            "nameLocation": "293:9:0",
+            "nameLocation": "292:9:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 4,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "302:2:0"
+              "src": "301:2:0"
             },
             "returnParameters": {
               "id": 5,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "312:0:0"
+              "src": "311:0:0"
             },
             "scope": 8,
-            "src": "284:108:0",
+            "src": "283:108:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
         "scope": 9,
-        "src": "135:259:0"
+        "src": "135:258:0"
       }
     ],
-    "src": "51:351:0"
+    "src": "51:350:0"
   },
   "compiler": {
     "name": "solc",
     "version": "0.8.2+commit.661d1103.Emscripten.clang"
   },
-  "networks": {
-    "5777": {
-      "events": {
-        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "owner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "spender",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Approval",
-          "type": "event"
-        },
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0x0AB435A391f803Cea0E345ce0eb87eF68F02b75f",
-      "transactionHash": "0x82e701621af590ab221009bf12bc4737083e5c8b9fc403e3c994e8d9d879e829"
-    }
-  },
+  "networks": {},
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-07-05T11:45:37.305Z",
-  "networkType": "ethereum",
+  "updatedAt": "2023-07-05T11:45:36.699Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
