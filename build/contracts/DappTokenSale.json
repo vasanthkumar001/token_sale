@@ -1,0 +1,120 @@
+{
+  "contractName": "DappTokenSale",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.2+commit.661d1103\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DappTokenSale.sol\":\"DappTokenSale\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DappTokenSale.sol\":{\"keccak256\":\"0x6cbb696026b98d0f93875215be92251b6070e2dfd5e9cb3d6326f3453b231f96\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://e889a4cd8db0bb5a2c60dab49c952eafb50648bf5eb64fb79fd3cfd5c9e6bb3f\",\"dweb:/ipfs/QmTY6U145mpMxLMWTumsSQoqDpn4L7XFoUmcdbZxKDZVZX\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122040c99589bb357a6338173d2486ecb42b41b4e883d3bda1f176d5c3cce314f25164736f6c63430008020033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122040c99589bb357a6338173d2486ecb42b41b4e883d3bda1f176d5c3cce314f25164736f6c63430008020033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "76:66:0:-:0;;;110:30;;;;;;;;;;76:66;;;;;;",
+  "deployedSourceMap": "76:66:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: SEE LICENSE IN LICENSE\npragma solidity ^0.8.2;\n\ncontract DappTokenSale {\n    \n    constructor() {\n        \n    }\n}",
+  "sourcePath": "/home/user/Desktop/truffle/token_sale/contracts/DappTokenSale.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/DappTokenSale.sol",
+    "exportedSymbols": {
+      "DappTokenSale": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "SEE LICENSE IN LICENSE",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "51:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "DappTokenSale",
+        "nameLocation": "85:13:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "124:16:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "121:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:0:0"
+            },
+            "scope": 6,
+            "src": "110:30:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "76:66:0"
+      }
+    ],
+    "src": "51:91:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.2+commit.661d1103.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x24762d09DEf75FA12b8F5A8a720F7766F505F1e4",
+      "transactionHash": "0xad1c000ffc38cb911a56d5ca933abefcfc8359fb443b6fb50f2e5b8cd44504c8"
+    }
+  },
+  "schemaVersion": "3.4.14",
+  "updatedAt": "2023-07-07T10:18:30.219Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
