@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .token{
+    color: #3b5998 ;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  .token1{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 3pc;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+  }
+  .token2{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 3pc;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+  }
+  .swap{
+    padding: 10px;
+    font-size: 2pc;
+    justify-content: center;
+  }
+  .box{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .box1 {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    justify-content: center;
+    padding-right: 30px;
+    
+  }
+  
+  .box2 {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    justify-content: center;
+    padding-right: 30px;
+  }
+  .swap1{
+    font-size: 36px;
+    padding: 16px;
+    border-radius: 16px;
+    
+    background-color: red;
+    color: #fff;
+  }
+  .add{
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    
+  }

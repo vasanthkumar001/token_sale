@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class='container'>
+        <img className='bg-img' src={BgImage} alt='...'></img>
+        <div className='token'>
+          <h1>Swapping tokens</h1>
+          <div>
+            <div class="box box1">
+              <div className='token1'> Token A
+              </div>
+              <input className='box' type='text' placeholder='Token 1' />
+              <select className='coinA' name='coinA'>
+                <option >ETH</option>
+                <option >DAI</option>
+                <option >WBTC</option>
+                <option >USDT</option>
+                <option >USDC</option>
+                <option >WETH</option>
+              </select>
+            </div>
+            <div class="box box2">
+              <div className='token2'> Token B
+              </div>
+              <input className='box' type='text' placeholder='Token 2' />
+              <select className='coinB' name='coinB'>
+                <option >ETH</option>
+                <option >DAI</option>
+                <option >WBTC</option>
+                <option >USDT</option>
+                <option >USDC</option>
+                <option >WETH</option>
+              </select>
+              <div>
+              </div>
+            </div>
+  
+  
+            <button className='swap'>Swap</button>
+            <button className='swap1'
+              onClick={eth_requestAccount}
+            >Connect Wallet</button>
+            <h3 className='add'>Wallet Address :{walletAddress}</h3>
+  
+  
+          </div>
+        </div>
+      </div>
+</body>
+</html>
