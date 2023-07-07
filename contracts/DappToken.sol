@@ -47,9 +47,9 @@ contract DappToken {
         require(_value <= balanceOf[_from]);
         require(_value <= allowance[_from][msg.sender]);
 
-        // balanceOf[_from] -= _value;
-        // balanceOf[_to] += _value;
-        // allowance[_from][msg.sender] -= _value;
+        balanceOf[_from] -= _value;
+        balanceOf[_to] += _value;
+        allowance[_from][msg.sender] -= _value;
 
         emit Transfer(_from, _to, _value);
 

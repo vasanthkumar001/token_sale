@@ -29,7 +29,6 @@ contract("DappToken", function(accounts){
             assert.equal(adminBalance.toNumber(),1000000,'it allocates the initial supply to the admin account');
         });
     });
-
     it('transfers token ownership', function(){
         return DappToken.deployed().then(function(instance){
             tokenInstance = instance;
@@ -57,8 +56,7 @@ contract("DappToken", function(accounts){
         .then(function(balance){
             assert.equal(balance.toNumber(),750000,'deducts the amount from the sending account');
         });     
-    });
-    
+    }); 
     it('approves token for deligated transfer', function(){
         return DappToken.deployed().then(function(instance){
             tokenInstance=instance;
@@ -107,7 +105,15 @@ contract("DappToken", function(accounts){
             assert.equal(receipt.logs[0].args._from, fromAccount, 'logs the account the tokens are transfered from');
             assert.equal(receipt.logs[0].args._to, toAccount, 'logs the account the token are transfered to');
             assert.equal(receipt.logs[0].args._value,10, 'logs the transfer amount');
-
+            return tokenInstance.balanceOf(fromAccount);
+        }).then(function(balance){
+            assert.equal(balance.toNumber(),90,'detucts the amount from the sending account');
+            return tokenInstance.balanceOf(toAccount);
+        }).then(function(balance){
+            assert.equal(balance.toNumber(),10,'adds the amount to the receiving account');
+            return tokenInstance.allowance(fromAccount,spendingAccount);
+        }).then(function(allowance){
+            assert.equal(allowance, 0,'deducts the amount from the allowance');
         });
     });     
 });
