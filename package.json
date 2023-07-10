@@ -7,11 +7,14 @@
         "test": "test"
     },
     "scripts": {
-        "dev":"lite-server"
+        "dev": "lite-server"
     },
     "author": "Gregory",
     "license": "ISL",
     "devDependencies": {
         "lite-server": "2.6.1"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.0"
     }
 }
